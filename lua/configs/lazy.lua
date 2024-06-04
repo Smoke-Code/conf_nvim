@@ -227,4 +227,11 @@ return {
 			vim.keymap.set("n", "<Leader>cc", "VNERDComComment<cr>")
 		end,
 	},
+	{
+		"akinsho/toggleterm.nvim",
+		version = "*",
+		config = function()
+			require("configs.toggleterm")
+		end,
+	},
 }
